@@ -95,3 +95,28 @@ section .mensaje {
     border:1px solid rgb(71, 88, 158);
     color: #0a3871;
 }
+
+
+@media screen and (max-width: 400px){
+    header {
+        width: 100%;
+        height: 61px;
+    }
+    main{
+        flex-direction: column;
+    }
+    main section {
+        height: 100vh;
+        padding: 20px;
+    }
+    main section:first-child {
+        margin-right: 0px;
+    } 
+    section textarea {
+        width: 290px;
+        height: 220px;
+    }
+    .div-copiar {
+        top: 243px;
+    }
+}
