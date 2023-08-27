@@ -1,0 +1,97 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body {
+    background-color: #f3f5fc;
+}
+
+header {
+    height: 65px;
+    border-bottom: 1px solid gray;
+    padding-top: 14px;
+    padding-left: 14px;
+}
+header div {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+header div img {
+    width: 50px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    padding-top: 30px;
+}
+main section:first-child {
+    margin-right: 20px;
+}
+section .text-area {
+    border: none;
+    resize: none;
+    color: #0a3871;
+    text-transform: lowercase;
+    background-color: #f3f5fc;
+    font-size: 20px;
+}
+::placeholder { color: #0a3871;}
+.text-area:focus {
+    outline: none;
+}
+
+section .mensaje {
+    border-radius: 24px;
+    border: none;
+    resize: none;
+    color: #0a3871;
+    text-transform: lowercase;
+    font-size: 20px;
+    padding: 14px;
+    position: relative;
+}
+.mensaje:focus {
+    outline: none;
+}
+.botones {
+    display: flex;
+    margin-top: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-encriptar, .btn-desencriptar, .copiar {
+    background-color: #0a3871;
+    border: #0a3871;
+    border-radius: 24px;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-desencriptar {
+    background-color: rgb(193, 200, 213);
+    border: rgb(89, 89, 89);
+    margin-left: 10px;
+    color: #0a3871;
+}
+.section-criptado {
+    position: relative;
+}
+.div-copiar {
+    position: absolute;
+    top: 427px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+.copiar {
+    background-color: rgb(193, 200, 213);
+    border: rgb(89, 89, 89);
+    color: #0a3871;
+}
