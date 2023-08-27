@@ -75,7 +75,7 @@ section .mensaje {
 }
 .btn-desencriptar {
     background-color: rgb(193, 200, 213);
-    border: rgb(89, 89, 89);
+    border:1px solid rgb(71, 88, 158);
     margin-left: 10px;
     color: #0a3871;
 }
@@ -92,6 +92,6 @@ section .mensaje {
 }
 .copiar {
     background-color: rgb(193, 200, 213);
-    border: rgb(89, 89, 89);
+    border:1px solid rgb(71, 88, 158);
     color: #0a3871;
 }
